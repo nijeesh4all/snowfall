@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start:dev": "webpack --mode=development --watch --progress",
-    "build:prod": "webpack --mode=production &&  cp –r dist/ demo/dist",
+    "build:prod": "webpack --mode=production && cp -r dist/ demo/",
     "prepublishOnly": "webpack --mode=production",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
     "lint:fix": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
