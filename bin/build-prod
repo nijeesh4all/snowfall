@@ -1,5 +1,0 @@
-#!/bin/bash
-
-webpack --mode=production
-
-cp dist demo/dist
