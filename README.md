@@ -17,7 +17,7 @@ https://unruffled-jepsen-423d54.netlify.app/
 load the script like you would load any external libraries
 
 ```html
-<script src='./snow-flake.js .js'></script>
+<script src='./snow-flake.js'></script>
 ```
 
 # Using
